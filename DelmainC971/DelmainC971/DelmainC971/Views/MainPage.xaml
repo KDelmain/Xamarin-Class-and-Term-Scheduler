@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:data="clr-namespace:DelmainC971.Models"
+             x:Class="DelmainC971.Views.MainPage">
+    
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label 
+                Text="WGU Planner" 
+                Style="{StaticResource pageHeader}"
+             />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <ListView 
+                x:Name="TermsList" 
+                HasUnevenRows="True" 
+                ItemsSource="{Binding Source= {x:Static data:Term.TermCollection}}"
+            >
+                <ListView.ItemTemplate>
+                    <DataTemplate>
+                        <ViewCell ClassId="{Binding ID}">
+                            <StackLayout>
+                                <Button 
+                                    Text="{Binding Name}"
+                                    Style="{StaticResource listItem}"
+                                    Clicked="Term_Clicked"
+                                />
+                            </StackLayout>
+                        </ViewCell>
+                    </DataTemplate>
+                </ListView.ItemTemplate>
+            </ListView>
+            
+            <StackLayout VerticalOptions="End">
+                <Button
+                    Text="Add Term"
+                    Style="{StaticResource button}"
+                    Clicked="AddTerm_Clicked"
+                />
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

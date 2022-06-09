@@ -1,0 +1,68 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:data="clr-namespace:DelmainC971.Models"
+             x:Class="DelmainC971.Views.TermDetailPage">
+    
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label 
+                x:Name="pageTitle"
+                Style="{StaticResource pageHeader}"
+             />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout>
+                <Label 
+                    x:Name="termDates"
+                    Style="{StaticResource dates}"
+                 />
+            </StackLayout>
+            <StackLayout VerticalOptions="StartAndExpand">
+                <ListView
+                    HasUnevenRows="True" 
+                    ItemsSource="{Binding Source= {x:Static data:Course.CourseCollection}}"
+                >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Button
+                                        Text="{Binding Name}"
+                                        Style="{StaticResource listItem}"
+                                        Clicked="Course_Clicked"
+                                    />
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            
+            <StackLayout VerticalOptions="End">
+                <Button 
+                    Text="Add Course"
+                    Style="{StaticResource button}"
+                    Clicked="AddCourse_Clicked"
+                />
+                <Button 
+                    Text="Edit Term"
+                    Style="{StaticResource button}"
+                    Clicked="EditTerm_Clicked"
+                />
+                <Button 
+                    Text="Delete Term"
+                    Style="{StaticResource deleteButton}"
+                    Clicked="DeleteTerm_Clicked"
+                />
+            </StackLayout>
+            
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

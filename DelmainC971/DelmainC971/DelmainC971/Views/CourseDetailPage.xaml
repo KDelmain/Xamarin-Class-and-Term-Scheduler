@@ -1,0 +1,84 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DelmainC971.Views.CourseDetailPage">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label 
+                x:Name="pageTitle"
+                Style="{StaticResource pageHeader}"
+             />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <ScrollView>
+
+            <StackLayout>
+                <StackLayout VerticalOptions="StartAndExpand">
+                    <Label 
+                        x:Name="courseDates"
+                        Style="{StaticResource dates}"
+                     />
+                    
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Status" HorizontalOptions="StartAndExpand" Margin="20,0,0,0" FontAttributes="Bold"/>
+                        <Label x:Name="courseStatus" HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    
+                    <Label Text="Instructor's Info:" HorizontalOptions="Start" Margin="20,0,0,0" FontAttributes="Bold"/>
+                    
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Name:" HorizontalOptions="StartAndExpand" Margin="20,0,0,0"/>
+                        <Label x:Name="instructorName" HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Phone:" HorizontalOptions="StartAndExpand" Margin="20,0,0,0"/>
+                        <Label  x:Name="instructorPhone" HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Email:" HorizontalOptions="StartAndExpand" Margin="20,0,0,0"/>
+                        <Label x:Name="instructorEmail" HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                    
+                    <StackLayout Orientation="Horizontal">
+                        <Label Text="Notifications:" HorizontalOptions="StartAndExpand" Margin="20,0,0,0" FontAttributes="Bold"/>
+                        <Label x:Name="notifications" HorizontalOptions="CenterAndExpand"/>
+                    </StackLayout>
+                     
+                    <Label Text="Notes:" Margin="20,0,0,0" FontAttributes="Bold"/>
+                    <Label x:Name="notes" Margin="20,0,20,0" LineBreakMode="WordWrap"/>
+                    
+                </StackLayout>
+                
+                <StackLayout VerticalOptions="End">
+                    <Button 
+                        Text="Share Notes"
+                        Style="{StaticResource button}"
+                        Clicked="ShareNotes_Clicked"
+                    />
+                    <Button 
+                        Text="Course Assessments"
+                        Style="{StaticResource button}"
+                        Clicked="CourseAssessments_Clicked"
+                    />
+                    <Button 
+                        Text="Edit Course"
+                        Style="{StaticResource button}"
+                        Clicked="EditCourse_Clicked"
+                    />
+                    <Button 
+                        Text="Delete Course"
+                        Style="{StaticResource deleteButton}"
+                        Clicked="DeleteCourse_Clicked"
+                    />
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

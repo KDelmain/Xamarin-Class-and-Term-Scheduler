@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DelmainC971.Views.CourseDataPage">
+    <ContentPage.Content>
+        <ScrollView>
+            <StackLayout>
+                <StackLayout VerticalOptions="StartAndExpand">
+                    <Entry Placeholder="Course Name:" x:Name="courseName"/>
+                    <Label Text="Start Date:" Margin="20,0,0,0"/>
+                    <DatePicker x:Name="courseStart"/>
+                    
+                    <Label Text="End Date:" Margin="20,0,0,0"/>
+                    <DatePicker x:Name="courseEnd"/>
+                    
+                    <Picker Title="Status:" x:Name="courseStatus">
+                        <Picker.ItemsSource>
+                            <x:Array Type="{x:Type x:String}">
+                                <x:String>Upcoming</x:String>
+                                <x:String>In Progress</x:String>
+                                <x:String>Completed</x:String>
+                                <x:String>Dropped</x:String>
+                            </x:Array>
+                        </Picker.ItemsSource>
+                    </Picker>
+                    
+                    <Label Text="Instructor's Info:" Margin="20,0,0,0"/>
+                    <Entry Placeholder="Name:" x:Name="instructorName"/>
+                    <Entry Placeholder="Phone:" x:Name="instructorPhone"/>
+                    <Entry Placeholder="Email:" x:Name="instructorEmail"/>
+                    <Editor Placeholder="Notes:" x:Name="notes" AutoSize="TextChanges" />
+                    <StackLayout Orientation="Horizontal" Margin="0,15,0,15">
+                        <Label Text="Notifications:" HorizontalOptions="StartAndExpand" Margin="20,0,0,0"/>
+                        <Switch 
+                            x:Name="notifications"
+                            HorizontalOptions="CenterAndExpand" 
+                            Scale="1.2"/>
+                    </StackLayout>
+                </StackLayout>
+                
+                <StackLayout VerticalOptions="End">
+                    <Button 
+                        x:Name="saveButton" 
+                        Style="{StaticResource button}"
+                        Text="Save" 
+                        Clicked="SaveButton_Clicked"
+                    />
+                    <Button 
+                        x:Name="saveEditButton" 
+                        Style="{StaticResource button}"
+                        Text="Save" 
+                        Clicked="SaveEditButton_Clicked"
+                    />
+                    <Button Text="Cancel" Clicked="CancelButton_Clicked"/>
+                    
+                </StackLayout>
+            </StackLayout>
+        </ScrollView>
+    </ContentPage.Content>
+</ContentPage>

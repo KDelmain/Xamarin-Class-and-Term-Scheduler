@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DelmainC971.Views.AssessmentDataPage">
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="StartAndExpand">
+                <Entry Placeholder="Assessment Name" x:Name="assessmentName"/>
+                <Label Text="Start Date:" Margin="20,0,0,0" FontAttributes="Bold"/>
+                <DatePicker x:Name="assessmentStart"/>
+
+                <Label Text="End Date:" Margin="20,0,0,0" FontAttributes="Bold"/>
+                <DatePicker x:Name="assessmentEnd"/>
+                
+                <Picker Title="Type:" x:Name="assessmentType">
+                    <Picker.ItemsSource>
+                        <x:Array Type="{x:Type x:String}">
+                            <x:String>Objective</x:String>
+                            <x:String>Performance</x:String>
+                        </x:Array>
+                    </Picker.ItemsSource>
+                </Picker>
+
+                <StackLayout Orientation="Horizontal" Margin="0,15,0,15">
+                    <Label Text="Notifications:" HorizontalOptions="StartAndExpand" Margin="15,0,0,0" FontAttributes="Bold"/>
+                    <Switch 
+                            x:Name="notifications"
+                            HorizontalOptions="CenterAndExpand" 
+                            Scale="1.2"/>
+                </StackLayout>
+            </StackLayout>
+
+            <StackLayout VerticalOptions="End">
+                <Button 
+                    x:Name="saveButton" 
+                    Style="{StaticResource button}"
+                    Text="Save" 
+                    Clicked="SaveButton_Clicked"
+                />
+                <Button 
+                    x:Name="saveEditButton" 
+                    Style="{StaticResource button}"
+                    Text="Save" 
+                    Clicked="SaveEditButton_Clicked"
+                />
+                <Button Text="Cancel" Clicked="CancelButton_Clicked"/>
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

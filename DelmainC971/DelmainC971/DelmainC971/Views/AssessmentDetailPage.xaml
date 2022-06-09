@@ -1,0 +1,51 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DelmainC971.Views.AssessmentDetailPage">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label 
+                x:Name="pageTitle"
+                Style="{StaticResource pageHeader}"
+             />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="StartAndExpand">
+                <Label 
+                    x:Name="assessmentDates"
+                    Style="{StaticResource dates}"
+                />
+                
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Type" HorizontalOptions="StartAndExpand" Margin="20,0,0,0" FontAttributes="Bold"/>
+                    <Label x:Name="assessmentType" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+                
+                <StackLayout Orientation="Horizontal">
+                    <Label Text="Notifications Enabled:" HorizontalOptions="StartAndExpand" Margin="20,0,0,0" FontAttributes="Bold"/>
+                    <Label x:Name="notifications" HorizontalOptions="CenterAndExpand"/>
+                </StackLayout>
+            </StackLayout>
+            
+            <StackLayout VerticalOptions="End">
+                <Button 
+                        Text="Edit Assessment"
+                        Style="{StaticResource button}"
+                        Clicked="EditAssessment_Clicked"
+                    />
+                <Button 
+                        x:Name="DeleteButton" 
+                        Style="{StaticResource deleteButton}"
+                        Text="Delete" 
+                        Clicked="DeleteButton_Clicked"
+                    />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

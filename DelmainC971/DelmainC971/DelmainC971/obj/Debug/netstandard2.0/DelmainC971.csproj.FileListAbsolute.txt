@@ -1,0 +1,42 @@
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\bin\Debug\netstandard2.0\DelmainC971.deps.json
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\bin\Debug\netstandard2.0\DelmainC971.dll
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\DelmainC971.csprojAssemblyReference.cache
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\DelmainC971.AssemblyInfoInputs.cache
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\DelmainC971.AssemblyInfo.cs
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\bin\Debug\netstandard2.0\ref\DelmainC971.dll
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\bin\Debug\netstandard2.0\DelmainC971.pdb
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\DelmainC971.dll
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\ref\DelmainC971.dll
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\DelmainC971.pdb
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\AssessmentDataPage.xaml.g.cs
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\AssessmentDetailPage.xaml.g.cs
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\CourseAssessmentPage.xaml.g.cs
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\CourseDataPage.xaml.g.cs
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\CourseDetailPage.xaml.g.cs
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\TermDataPage.xaml.g.cs
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\TermDetailPage.xaml.g.cs
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\DelmainC971.csproj.CoreCompileInputs.cache
+C:\Users\kmdel\Desktop\C971 PA\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\bin\Debug\netstandard2.0\DelmainC971.deps.json
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\bin\Debug\netstandard2.0\DelmainC971.dll
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\bin\Debug\netstandard2.0\ref\DelmainC971.dll
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\bin\Debug\netstandard2.0\DelmainC971.pdb
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\App.xaml.g.cs
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\AssessmentDataPage.xaml.g.cs
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\AssessmentDetailPage.xaml.g.cs
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\CourseAssessmentPage.xaml.g.cs
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\CourseDataPage.xaml.g.cs
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\CourseDetailPage.xaml.g.cs
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\MainPage.xaml.g.cs
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\TermDataPage.xaml.g.cs
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\Views\TermDetailPage.xaml.g.cs
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\DelmainC971.csproj.CoreCompileInputs.cache
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\DelmainC971.AssemblyInfoInputs.cache
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\DelmainC971.AssemblyInfo.cs
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\XamlC.stamp
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\DelmainC971.dll
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\ref\DelmainC971.dll
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\DelmainC971.pdb
+C:\Users\kmdel\Desktop\DelmainC971\DelmainC971\DelmainC971\obj\Debug\netstandard2.0\DelmainC971.csprojAssemblyReference.cache

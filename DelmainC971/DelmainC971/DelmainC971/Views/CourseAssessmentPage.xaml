@@ -1,0 +1,50 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             xmlns:data="clr-namespace:DelmainC971.Models"
+             x:Class="DelmainC971.Views.CourseAssessmentPage">
+    <NavigationPage.TitleView>
+        <StackLayout>
+            <Label 
+                x:Name="pageTitle"
+                Style="{StaticResource pageHeader}"
+             />
+        </StackLayout>
+    </NavigationPage.TitleView>
+    <ContentPage.Content>
+        <StackLayout>
+            <StackLayout VerticalOptions="StartAndExpand">
+                <ListView
+                    x:Name="AssessmentList"
+                    HasUnevenRows="True" 
+                    ItemsSource="{Binding Source= {x:Static data:Assessment.AssessmentCollection}}"
+                >
+                    <ListView.ItemTemplate>
+                        <DataTemplate>
+                            <ViewCell>
+                                <StackLayout>
+                                    <Button
+                                        Text="{Binding Name}"
+                                        Style="{StaticResource listItem}"
+                                        Clicked="Assessment_Clicked"
+                                    />
+                                </StackLayout>
+                            </ViewCell>
+                        </DataTemplate>
+                    </ListView.ItemTemplate>
+                </ListView>
+            </StackLayout>
+            
+            <StackLayout VerticalOptions="End">
+                <Button 
+                    Text="Add Assessment"
+                    Style="{StaticResource button}"
+                    Clicked="AddAssessment_Clicked"
+                />
+            </StackLayout>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

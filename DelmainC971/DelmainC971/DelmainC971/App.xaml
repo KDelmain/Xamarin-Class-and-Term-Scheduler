@@ -1,0 +1,46 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<Application xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             xmlns:d="http://xamarin.com/schemas/2014/forms/design"
+             xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+             mc:Ignorable="d"
+             x:Class="DelmainC971.App">
+    <Application.Resources>
+        <ResourceDictionary>
+
+            <Style x:Key="pageHeader" TargetType="Label">
+                <Setter Property="VerticalTextAlignment" Value="Center"/>
+                <Setter Property="HorizontalTextAlignment" Value="Center"/>
+                <Setter Property="TextColor" Value="White"/>
+                <Setter Property="FontSize" Value="Title"/>
+                <Setter Property="FontAttributes" Value="Bold"/>
+            </Style>
+
+            <Style x:Key="listItem" TargetType="Button">
+                <Setter Property="BorderWidth" Value="2" />
+                <Setter Property="BorderColor" Value="LightBlue"/>
+                <Setter Property="TextColor" Value="Black" />
+                <Setter Property="FontSize" Value="Medium" />
+                <Setter Property="Margin" Value="7, 7, 7, 0"/>
+                <Setter Property="BackgroundColor" Value="White"/>
+            </Style>
+            
+            <Style x:Key="button" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Navy"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+
+            <Style x:Key="deleteButton" TargetType="Button">
+                <Setter Property="BackgroundColor" Value="Red"/>
+                <Setter Property="TextColor" Value="White"/>
+            </Style>
+
+            <Style x:Key="dates" TargetType="Label">
+                <Setter Property="VerticalOptions" Value="StartAndExpand"/>
+                <Setter Property="HorizontalOptions" Value="CenterAndExpand"/>
+                <Setter Property="Margin" Value="10"/>
+            </Style>
+            
+        </ResourceDictionary>
+    </Application.Resources>
+</Application>
